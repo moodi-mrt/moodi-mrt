@@ -1,41 +1,40 @@
-<!-- ────────────────────────────  HERO  ──────────────────────────── -->
+<!-- ─────────────────────────────  HERO  ───────────────────────────── -->
 
 <a href="https://personalportfolio-zeta-sooty.vercel.app/">
-  <img src="./assets/hero.svg" alt="Mehmood — Java Backend Engineer • DevOps Engineer" width="100%">
+  <img src="./assets/hero.svg" alt="Mehmood — Java Backend & DevOps Engineer" width="100%">
 </a>
 
 <br>
 
-> I don't just write code. I build systems &mdash; the services, queues and pipelines
-> that keep everything else running under load.
+I'm a Software Engineering student at **FAST-NUCES Peshawar**, focused on
+**Java backend** and **DevOps**. I like the parts of software most people never
+see &mdash; the services, data stores and pipelines that have to stay correct and
+available under load. Comfortable with Spring Boot and PostgreSQL, learning the
+infrastructure side, and drawn to system design, DSA and security.
 
 <br>
 
-<!-- ────────────────────────────  STATUS + FOCUS  ──────────────────────────── -->
+<!-- ─────────────────────────────  FOCUS + BUILDING  ───────────────────────────── -->
 
 <table>
 <tr>
-<td width="52%" valign="top">
+<td width="53%" valign="top">
 
-<img src="./assets/status.svg" alt="System status" width="100%">
+<img src="./assets/status.svg" alt="Current focus" width="100%">
 
 </td>
-<td width="48%" valign="top">
+<td width="47%" valign="top">
 
-#### `CURRENTLY BUILDING`
+#### Currently building
 
-```text
-→  Production-grade Java + Spring Boot backends
-→  Event-driven services with an outbox + ledger
-→  Docker images and GitHub Actions pipelines
-→  Kubernetes fundamentals
-→  System & distributed-systems design
-→  Open-source contributions (JabRef)
-```
+- Production-grade **Java · Spring Boot** backends
+- Event-driven services with an **outbox + append-only ledger**
+- **Docker** images and **GitHub Actions** pipelines
+- **Kubernetes** and distributed-systems fundamentals
+- Open-source contributions to **[JabRef](https://github.com/JabRef/jabref)**
 
-<sub>Software Engineering @ **FAST-NUCES Peshawar** · heading toward
-Java Backend + DevOps. Systems thinking, DSA, and a standing
-curiosity about security and distributed systems.</sub>
+<sub>Heading toward a Java Backend + DevOps role. Open to
+internships and open-source collaboration.</sub>
 
 </td>
 </tr>
@@ -43,11 +42,11 @@ curiosity about security and distributed systems.</sub>
 
 <br>
 
-<!-- ────────────────────────────  TECH STACK  ──────────────────────────── -->
+<!-- ─────────────────────────────  TECH STACK  ───────────────────────────── -->
 
-### `TECH STACK`
+### Tech stack
 
-Organised the way I reason about a system &mdash; not as a logo wall.
+Grouped the way I reason about a system, not as a logo wall.
 
 | Layer | Tools |
 | :--- | :--- |
@@ -57,115 +56,80 @@ Organised the way I reason about a system &mdash; not as a logo wall.
 | **Infrastructure** | Docker · GitHub Actions · Linux · Nginx · AWS |
 | **Learning next** | Kubernetes · Terraform · Prometheus / Grafana |
 
-<sub>Bold layers are where I work day to day. *Learning next* is honest &mdash; I'm not
-going to claim a tool I'm still reading the docs for.</sub>
+<sub>Bold rows are where I work today. <em>Learning next</em> is deliberate &mdash;
+I won't list a tool I'm still learning as something I've mastered.</sub>
 
 <br>
 
-<!-- ────────────────────────────  JOURNEY  ──────────────────────────── -->
+<!-- ─────────────────────────────  FEATURED  ───────────────────────────── -->
 
-### `ENGINEERING JOURNEY`
+### Featured project
 
-```text
-   programming
-        │
-   data structures & algorithms  ──►  dsa-cpp
-        │
-   Java  ──►  Spring Boot
-        │
-   backend engineering  ──►  APIs · persistence · auth
-        │
-   distributed systems  ──►  events · outbox · idempotency
-        │
-   devops  ──►  Docker · CI/CD
-        │
-   cloud & infrastructure        ● in progress
-```
+#### ASCEND &nbsp;·&nbsp; <sub>append-only XP ledger for real-world effort</sub>
 
-<br>
+Real work &mdash; studying, building, training, reflection &mdash; is logged as events.
+The server evaluates each event against **versioned rules** and writes an
+**append-only ledger**; character and progress are disposable projections
+rebuilt from that ledger. The interesting part isn't the theme, it's the
+guarantees:
 
-<!-- ────────────────────────────  FLAGSHIP  ──────────────────────────── -->
+- **XP can never come from the client** — the request has no XP field, and unknown JSON is rejected.
+- **Append-only for real** — enforced by database triggers *and* a runtime role with only `SELECT, INSERT`.
+- **Exactly-once effect** — outbox pattern with unique constraints and idempotency keys, no broker.
+- **Deterministic evaluation** — the rules engine is a pure function of `(event, rule versions, context)` and never reads the clock.
 
-### `FEATURED PROJECT`
+<sub>**Java 21 · Spring Boot 3.5 · Spring Modulith · PostgreSQL · React + TypeScript · Docker · CI**</sub>
 
-<table>
-<tr><td valign="top">
-
-## &nbsp;ASCEND &nbsp;<sub>`● BUILDING`</sub>
-
-**An auditable XP ledger for real-world effort.** Real work &mdash; studying, building,
-training, reflection &mdash; is logged as events. The server evaluates each event against
-*versioned* rules and writes an **append-only ledger**; character and progress are
-disposable projections rebuilt from that ledger.
-
-The engineering interest isn't the theme &mdash; it's the guarantees:
-
-- **XP can never come from the client.** The request has no XP field; unknown JSON is rejected.
-- **Append-only for real** &mdash; enforced by DB triggers *and* a runtime role with only `SELECT, INSERT`.
-- **Exactly-once effect** &mdash; outbox pattern + unique constraints + idempotency keys, no broker.
-- **Deterministic evaluation** &mdash; the rules engine is a pure function of `(event, rule versions, context)`; it never reads the clock.
-
-`Java 21` · `Spring Boot 3.5` · `Spring Modulith` · `PostgreSQL` · `React + TS` · `Docker` · `CI`
-
-**Architecture → Security → Exactly-once processing → Deploy**
-
-[&nbsp;**VIEW PROJECT →**&nbsp;](https://github.com/moodi-mrt/ascend)
-
-</td></tr>
-</table>
+**[View project →](https://github.com/moodi-mrt/ascend)**
 
 <br>
 
-<!-- ────────────────────────────  SELECTED WORK  ──────────────────────────── -->
+<!-- ─────────────────────────────  SELECTED WORK  ───────────────────────────── -->
 
-### `SELECTED WORK`
+### Selected work
 
-| Project | What it solves | Stack | Status |
+| Project | What it does | Stack | Status |
 | :--- | :--- | :--- | :---: |
-| **[ascend](https://github.com/moodi-mrt/ascend)** | Append-only XP ledger with versioned rules & deterministic evaluation | Java · Spring · Postgres | `BUILDING` |
-| **[nascon-webscan](https://github.com/moodi-mrt/nascon-webscan)** | Authorized-use web-scan orchestrator for CTF challenges → one clean bug report | Python | `COMPLETED` |
-| **[nocap OS](https://personalportfolio-zeta-sooty.vercel.app/)** | Portfolio as an interactive terminal | React · Vite | `LIVE` |
-| **[dsa-cpp](https://github.com/moodi-mrt/dsa-cpp)** | DSA practice: arrays, two-pointers, sliding window | C++ | `ONGOING` |
+| **[ascend](https://github.com/moodi-mrt/ascend)** | Append-only XP ledger with versioned rules and deterministic evaluation | Java · Spring · Postgres | `Building` |
+| **[nascon-webscan](https://github.com/moodi-mrt/nascon-webscan)** | Authorized-use web-scan orchestrator for CTF challenges, into one clean report | Python | `Complete` |
+| **[nocap OS](https://personalportfolio-zeta-sooty.vercel.app/)** | Portfolio built as an interactive terminal | React · Vite | `Live` |
+| **[dsa-cpp](https://github.com/moodi-mrt/dsa-cpp)** | DSA practice — arrays, two pointers, sliding window | C++ | `Ongoing` |
 
 <br>
 
-<!-- ────────────────────────────  LEARNING SYSTEM  ──────────────────────────── -->
+<!-- ─────────────────────────────  ROADMAP  ───────────────────────────── -->
 
-### `LEARNING SYSTEM`
+### Learning roadmap
 
-| `NOW` | `NEXT` | `LATER` |
+| Now | Next | Later |
 | :--- | :--- | :--- |
 | Kubernetes | Terraform | Cloud architecture |
 | Spring Security | Advanced Kubernetes | High-scale backends |
-| System design | Distributed systems | Observability at depth |
+| System design | Distributed systems | Observability in depth |
 
 <br>
 
-<!-- ────────────────────────────  BEYOND  ──────────────────────────── -->
+<!-- ─────────────────────────────  BEYOND  ───────────────────────────── -->
 
-### `BEYOND SOFTWARE`
+### Beyond software
 
-I follow **financial markets** seriously &mdash; less for the charts, more for the
-*systems* thinking they demand: market structure, macro, risk management and
-decisions under uncertainty. It's the same discipline as good engineering &mdash;
+I follow financial markets seriously &mdash; less for the charts than for the
+systems thinking they demand: market structure, macro, risk management and
+decisions under uncertainty. It's the same discipline as good engineering:
 model the system, define the failure mode, size the risk.
 
 <br>
-
-<!-- ────────────────────────────  PHILOSOPHY  ──────────────────────────── -->
 
 > **Build systems that stay understandable once they get complex.**
 > Correctness first, then make it operable, then make it fast.
 
 <br>
 
-<!-- ────────────────────────────  CONTACT  ──────────────────────────── -->
+<!-- ─────────────────────────────  CONTACT  ───────────────────────────── -->
 
-### `LET'S BUILD`
+### Get in touch
 
 **[Portfolio](https://personalportfolio-zeta-sooty.vercel.app/)** &nbsp;·&nbsp;
 **[LinkedIn](https://www.linkedin.com/in/muhammad-mehmood-21b635431)** &nbsp;·&nbsp;
 **[GitHub](https://github.com/moodi-mrt)** &nbsp;·&nbsp;
 **[Email](mailto:mehmoodkhanmrt@gmail.com)**
-
-<sub>Open to backend / DevOps internships and open-source collaboration.</sub>
