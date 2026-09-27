@@ -1,14 +1,14 @@
 <!-- ─────────────────────────────  HERO  ───────────────────────────── -->
 
 <a href="https://personalportfolio-zeta-sooty.vercel.app/">
-  <img src="./assets/hero.svg" alt="Mehmood — Java Backend & DevOps Engineer" width="100%">
+  <img src="./assets/hero.svg" alt="Mehmood — Java Backend &amp; DevOps Engineer" width="100%">
 </a>
 
 <br>
 
 I'm a Software Engineering student at **FAST-NUCES Peshawar**, focused on
 **Java backend** and **DevOps**. I like the parts of software most people never
-see &mdash; the services, data stores and pipelines that have to stay correct and
+see — the services, data stores and pipelines that have to stay correct and
 available under load. Comfortable with Spring Boot and PostgreSQL, learning the
 infrastructure side, and drawn to system design, DSA and security.
 
@@ -56,7 +56,7 @@ Grouped the way I reason about a system, not as a logo wall.
 | **Infrastructure** | Docker · GitHub Actions · Linux · Nginx · AWS |
 | **Learning next** | Kubernetes · Terraform · Prometheus / Grafana |
 
-<sub>Bold rows are where I work today. <em>Learning next</em> is deliberate &mdash;
+<sub>Bold rows are where I work today. <em>Learning next</em> is deliberate —
 I won't list a tool I'm still learning as something I've mastered.</sub>
 
 <br>
@@ -67,10 +67,10 @@ I won't list a tool I'm still learning as something I've mastered.</sub>
 
 #### ASCEND &nbsp;·&nbsp; <sub>append-only XP ledger for real-world effort</sub>
 
-Real work &mdash; studying, building, training, reflection &mdash; is logged as events.
+Real work — studying, building, training, reflection — is logged as events.
 The server evaluates each event against **versioned rules** and writes an
 **append-only ledger**; character and progress are disposable projections
-rebuilt from that ledger. The interesting part isn't the theme, it's the
+rebuilt from that ledger. The interesting part isn't the theme — it's the
 guarantees:
 
 - **XP can never come from the client** — the request has no XP field, and unknown JSON is rejected.
@@ -91,7 +91,7 @@ guarantees:
 | Project | What it does | Stack | Status |
 | :--- | :--- | :--- | :---: |
 | **[ascend](https://github.com/moodi-mrt/ascend)** | Append-only XP ledger with versioned rules and deterministic evaluation | Java · Spring · Postgres | `Building` |
-| **[nascon-webscan](https://github.com/moodi-mrt/nascon-webscan)** | Authorized-use web-scan orchestrator for CTF challenges, into one clean report | Python | `Complete` |
+| **[nascon-webscan](https://github.com/moodi-mrt/nascon-webscan)** | Authorized-use web-scan orchestrator for CTF challenges — one clean report | Python | `Complete` |
 | **[nocap OS](https://personalportfolio-zeta-sooty.vercel.app/)** | Portfolio built as an interactive terminal | React · Vite | `Live` |
 | **[dsa-cpp](https://github.com/moodi-mrt/dsa-cpp)** | DSA practice — arrays, two pointers, sliding window | C++ | `Ongoing` |
 
@@ -113,7 +113,7 @@ guarantees:
 
 ### Beyond software
 
-I follow financial markets seriously &mdash; less for the charts than for the
+I follow financial markets seriously — less for the charts than for the
 systems thinking they demand: market structure, macro, risk management and
 decisions under uncertainty. It's the same discipline as good engineering:
 model the system, define the failure mode, size the risk.
