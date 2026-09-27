@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" role="img" aria-label="Mehmood — Java Backend Engineer and DevOps Engineer. Building secure, reliable and scalable systems.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1118"/>
+      <stop offset="1" stop-color="#070A0F"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="0.55" stop-color="#00E5FF" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F2F5F7"/>
+      <stop offset="1" stop-color="#CFE9EE"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#1A2530" stroke-width="1" opacity="0.4"/>
+    </pattern>
+    <style>
+      .mono{font-family:'SFMono-Regular',ui-monospace,'JetBrains Mono','Cascadia Code',Consolas,monospace}
+      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif}
+    </style>
+  </defs>
+
+  <rect width="1000" height="280" rx="16" fill="url(#bg)"/>
+  <rect width="1000" height="280" rx="16" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="999" height="279" rx="16" fill="none" stroke="#16212C"/>
+  <rect x="16" y="14" width="360" height="2.5" rx="2" fill="url(#edge)"/>
+
+  <!-- top status line -->
+  <g class="mono" font-size="12.5" letter-spacing="2">
+    <circle cx="26" cy="44" r="4" fill="#22C55E">
+      <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="40" y="48" fill="#8B98A5">SYSTEM ONLINE</text>
+    <text x="984" y="48" text-anchor="end" fill="#5C6B78">FAST-NUCES · PESHAWAR, PK · UTC+5</text>
+  </g>
+
+  <!-- name -->
+  <text x="24" y="150" class="sans" font-size="92" font-weight="800" letter-spacing="4" fill="url(#name)">MEHMOOD</text>
+
+  <!-- role -->
+  <g class="mono" font-size="19" letter-spacing="3">
+    <text x="26" y="196" fill="#00E5FF">Java Backend Engineer</text>
+    <text x="286" y="196" fill="#3B4855">•</text>
+    <text x="306" y="196" fill="#7C3AED">DevOps Engineer</text>
+  </g>
+
+  <!-- tagline -->
+  <text x="26" y="236" class="sans" font-size="17" fill="#8B98A5">Building secure, reliable and scalable systems &#8212; the services, queues and pipelines beneath the surface.</text>
+
+  <!-- corner ticks -->
+  <g stroke="#00E5FF" stroke-width="1.5" opacity="0.55" fill="none">
+    <path d="M958 250 h20 v-20"/>
+  </g>
+</svg>
